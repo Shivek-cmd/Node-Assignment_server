@@ -1,7 +1,7 @@
 const User = require('../models/userModel');
 const { userSchema } = require('../utils/validate');
 
-// Backend: Modified getUsers with pagination
+// get user with pagination
 const getUsers = async (req, res) => {
   try {
     const page = parseInt(req.query.page) || 1;
