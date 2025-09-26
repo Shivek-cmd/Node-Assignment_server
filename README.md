@@ -34,7 +34,6 @@ A robust RESTful API built with Node.js, Express, and MongoDB to power the User 
 
 1. Clone the repository  
    https://github.com/Shivek-cmd/Node-Assignment_server.git
-   cd server
 
 2. Install dependencies
    npm install
